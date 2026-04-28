@@ -178,7 +178,7 @@ This project uses two primary data sources:
 ## 2. Dataset Overview
 
 - Total movies analyzed: {len(df)}
-- Matched TMDB + Letterboxd records after merging
+- Matched TMDB and Letterboxd records after merging
 
 ---
 
@@ -187,6 +187,9 @@ This project uses two primary data sources:
 ### Correlation between platforms
 Correlation between TMDB and Letterboxd ratings:
 **{corr:.3f}**
+
+### Ratings between platforms
+TMDB ratings were higher on average than Letterboxd ratings.
 
 ---
 
@@ -209,17 +212,15 @@ Correlation between TMDB and Letterboxd ratings:
 
 ### Average Letterboxd Rating by Genre
 ![Letterboxd Genre](data/analysis/genre_ratings_letterboxd.png)
-
 ##### This bar graph shows the average rating of movies/tv shows in our dataset divided by the genre, separated by source.
+
 ---
 
 ## 5. Genre Insights
 
 Most common genres in the dataset:
 
-{top_genres_clean}
-
-Genres like Drama and Comedy appear most frequently across the dataset.
+Thriller, Adventure, Horror, Action
 
 ---
 
